@@ -1,0 +1,10 @@
+{
+  "id": 1,
+
+  "email": "info@smitsrl.com.ar",
+  "phone": "+54 9 2974 27-1142",
+  "location": {
+    "first": "Km 31 Ruta Nac 151 Barda del Medio",
+    "second": "Provincia de Río Negro"
+  }
+}

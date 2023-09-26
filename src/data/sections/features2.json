@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-science",
+    "title": "MISIÓN",
+    "content": "Proporcionar soluciones profesionales, personalizadas y con la mejor relación costo/beneficio para la Industria Petrolera..."
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-light",
+    "title": "VISIÓN",
+    "content": "Satisfacer las expectativas de nuestros Clientes basándonos en la calidad, la mejora continua, la responsabilidad, la calidad de nuestros productos y el profesionalismo de nuestros servicios..."
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-config",
+    "title": "FUNCIÓN",
+    "content": "Brindar a cada uno de nuestros Clientes respuestas inmediatas, una provisión eficaz, eficiente, oportuna, que acompañe las necesidades técnicas y económicas..."
+  }
+]

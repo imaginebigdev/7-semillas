@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-paint-bucket",
+    "title": "SERVICIOS PETROLEROS Y LOGISTICA",
+    "content": "",
+    "img": "/img/icons/1.png",
+    "link": "logistic"
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-phone",
+    "title": "EXPLOTACION MINERA Y OBRAS CIVILES",
+    "content": "",
+    "img": "/img/icons/2.png",
+    "link": "explotation"
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-display1",
+    "title": "MAQUINAS, HERRAMIENTAS Y ENERGIAS LIMPIAS",
+    "content": "",
+    "img": "/img/icons/3.png",
+    "link": "energy"
+  },
+  {
+    "id": 4,
+    "icon": "pe-7s-global",
+    "title": "GESTIÓN COMERCIAL Y COMERCIO EXTERIOR",
+    "content": "",
+    "img": "/img/icons/4.png",
+    "link": "bussines"
+  }
+]

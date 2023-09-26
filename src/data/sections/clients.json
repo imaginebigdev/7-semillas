@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "lightImage": "/img/clients/brands/light/1.png",
+    "darkImage": "/img/clients/brands/dark/01.png",
+    "url": "https://www.linkedin.com/company/sanantoniointernacional/?originalSubdomain=ar",
+    "showLink": "www.linkedin.com/company/sanantoniointernacional"
+  },
+  {
+    "id": 2,
+    "lightImage": "/img/clients/brands/light/2.png",
+    "darkImage": "/img/clients/brands/dark/02.png",
+    "url": "http://clear.com.ar/",
+    "showLink": "clear.com.ar"
+  },
+  {
+    "id": 3,
+    "lightImage": "/img/clients/brands/light/3.png",
+    "darkImage": "/img/clients/brands/dark/03.png",
+    "url": "http://indus.com.ar/",
+    "showLink": "indus.com.ar"
+  },
+  {
+    "id": 4,
+    "lightImage": "/img/clients/brands/light/4.png",
+    "darkImage": "/img/clients/brands/dark/04.png",
+    "url": "https://venver.com.ar/",
+    "showLink": "venver.com.ar"
+  },
+  {
+    "id": 5,
+    "lightImage": "/img/clients/brands/light/5.png",
+    "darkImage": "/img/clients/brands/dark/05.png",
+    "url": "https://www.aconcaguaenergia.com/",
+    "showLink": "aconcaguaenergia.com"
+  },
+  {
+    "id": 6,
+    "lightImage": "/img/clients/brands/light/6.png",
+    "darkImage": "/img/clients/brands/dark/06.png",
+    "url": "https://patagoniaenergy.com.ar/",
+    "showLink": "patagoniaenergy.com.ar"
+  },
+  {
+    "id": 7,
+    "lightImage": "/img/clients/brands/light/7.png",
+    "darkImage": "/img/clients/brands/dark/07.png",
+    "url": "https://www.linkedin.com/company/petr%C3%B3leos-sudamericanos-energy/?originalSubdomain=ar",
+    "showLink": "www.linkedin.com/company/petr%C3%B3leos-sudamericanos-energy"
+  },
+  {
+    "id": 8,
+    "lightImage": "/img/clients/brands/light/8.png",
+    "darkImage": "/img/clients/brands/dark/08.png",
+    "url": "https://velitec.com.ar/",
+    "showLink": "velitec.com.ar"
+  }
+]
