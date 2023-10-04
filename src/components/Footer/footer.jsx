@@ -18,31 +18,28 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Dirección</h6>
-                    <p>
-                      Km 31 Ruta Nac 151 Barda del Medio , Provincia de Río
-                      Negro
-                    </p>
+                    <p>Caseros 625 Pb Dpto. E, SFV de Catamarca.</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email</h6>
-                    <p>info@smitsrl.com.ar</p>
+                    <p>info.grupo7s@gmail.com</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Telefono</h6>
-                    <p>299 579 8959 </p>
-                    <p>297 427 1142 </p>
+                    <h6>Teléfono</h6>
+                    <p>+549 383 478 6895</p>
+                    <p>+549 383 478 6896 </p>
                   </div>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
                 <h5>Descargar Brochure</h5>
@@ -59,7 +56,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">

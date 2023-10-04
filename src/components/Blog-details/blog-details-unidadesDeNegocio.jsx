@@ -19,25 +19,34 @@ const BlogDetailsUnidadesDeNegocio = () => {
                   <div className="col-lg-10">
                     <div className="cont">
                       <h4 className="extra-title">
-                        Nuestra organización se basa en las siguientes cuatro
-                        unidades de negocio.
+                        Propósito de nuestra empresa
                       </h4>
                       <br />
-                      <div className="spacial" id="logistic">
-                        <h6>SERVICIOS PETROLEROS Y LOGISTICA</h6>
+                      <div className="spacial">
+                        <h6>
+                          Fundamos GRUPO 7S SRL, con el propósito de ayudar a
+                          los profesionales del área administrativa de la
+                          gestión publica - privada a desarrollar y ejecutar
+                          proyectos de infraestructuras vial, civil e hidráulica
+                          para el crecimiento y desarrollo local; Teniendo muy
+                          en cuenta el entorno y poniendo a su disposición todo
+                          nuestro "know-how" en:
+                        </h6>
                         <br />
                         <ul>
                           <li>
-                            <span>•</span> Transporte de cargas petroleras, DTM
-                            para equipos de perforación (drilling), terminación
-                            (workover) y pulling
+                            <span>•</span> Proyectos con alto grado de detalle.
+                            En el Area Vial, civil e hidráulica.
                           </li>
                           <li>
-                            <span>•</span> Transporte de cargas generales
+                            <span>•</span> Ejecución de los proyectos antes
+                            mencionados. con el mayor grado de solvencia técnica
+                            y efectividad para lograr los objetivos. Teniendo en
+                            cuenta el ambiente.
                           </li>
                           <li>
-                            <span>•</span> Transporte de carga de grandes
-                            dimensiones
+                            <span>•</span> Gerenciamiento y/o auditoria externa
+                            para el control de las obras en desarrollo.
                           </li>
                           <li>
                             <span>•</span> Contamos con vehículos 4x4 para
@@ -46,114 +55,94 @@ const BlogDetailsUnidadesDeNegocio = () => {
                         </ul>
                         <br />
                       </div>
-                      <div className="spacial" id="explotation">
-                        <h6>EXPLOTACION MINERA Y OBRAS CIVILES</h6>
+                      <div className="spacial">
+                        <h6>GRUPO 7S SRL</h6>
                         <br />
                         <ul>
                           <li>
-                            <span>•</span>Movimiento de suelo
+                            <span>•</span>Cuenta con un equipo de profesionales
+                            capacitados en diferentes areas, otorgándole asi, un
+                            soporte técnico adecuado a las diferentes tareas en
+                            la gestión y ejecución de las obras.
+                          </li>
+                        </ul>
+                        <br />
+                      </div>
+                      <div className="spacial" id="logistic">
+                        <h4 className="extra-title">
+                          Forma de desarrollo de proyectos
+                        </h4>
+                        <h6>Proyectos de diseño y calculo Estructural:</h6>
+                        <br />
+                        <ul>
+                          <li>
+                            <span>•</span>Desarrollo de proyectos de ingeniería
+                            estructural, mediante el diseño, modelación
+                            tridimensional mediante método de elementos finitos,
+                            calculo y dimensionamiento de estructuras de
+                            hormigón armado, estructuras metálicas y madera,
+                            etc.
                           </li>
                           <li>
-                            <span>•</span>Construcción y diseño de rutas
+                            <span>•</span>Elaboración de memorias, planos,
+                            planillas y documentación de detalle.
                           </li>
+                        </ul>
+                        <br />
+                      </div>
+                      <div className="spacial" id="explotation">
+                        <h6>Proyectos de infraestructura vial</h6>
+                        <br />
+                        <ul>
                           <li>
-                            <span>•</span>Construcción de caminos y accesos
+                            <span>•</span>Desarrollo de proyectos de ingeniería
+                            civil y vial, mediante la realización de estudios
+                            topográficos, diseño geométrico de caminos, puentes
+                            y obras complementarias.
                           </li>
+
                           <li>
-                            <span>•</span>Construcción de bases para calles de
-                            pavimentos
-                          </li>
-                          <li>
-                            <span>•</span>Mantenimiento de rutas
-                          </li>
-                          <li>
-                            <span>•</span>Construcción de locaciones
-                          </li>
-                          <li>
-                            <span>•</span>Construcción de pavimento de hormigón
-                          </li>
-                          <li>
-                            <span>•</span>Montajes
-                          </li>
-                          <li>
-                            <span>•</span>Construcción de plateas y bases de
-                            hormigón
-                          </li>
-                          <li>
-                            <span>•</span>Instalación de gas, electricidad, agua
-                            y cloaca
-                          </li>
-                          <li>
-                            <span>•</span>Provisión de hormigón elaborado
-                          </li>
-                          <li>
-                            <span>•</span>Provisión de obradores
-                          </li>
-                          <li>
-                            <span>•</span>Servicio de contenedores
-                          </li>
-                          <li>
-                            <span>•</span>Provisión de mano de obra
-                            especializada
+                            <span>•</span>Elaboración de planos, planillas y
+                            documentación de detalle.
                           </li>
                         </ul>
                         <br />
                       </div>
                       <div className="spacial" id="energy">
-                        <h6>MAQUINAS, HERRAMIENTAS Y ENERGIAS LIMPIAS</h6>
+                        <h6>
+                          Proyectos de infraestructura sanitaria e hidráulica.
+                        </h6>
                         <br />
                         <ul>
                           <li>
-                            <span>•</span>Transportes de cargas generales
-                          </li>
-                          <li>
-                            <span>•</span>Transporte de cargas
-                            sobredimensionadas
-                          </li>
-                          <li>
-                            <span>•</span>Equipos de pulling, workover
-                          </li>
-                          <li>
-                            <span>•</span>Flota amarilla (movimiento de suelo,
-                            apertura de caminos y locaciones)
-                          </li>
-                          <li>
-                            <span>•</span>Equipos para reducción de consumo de
-                            combustible y emisión de carbono
-                          </li>
-                          <li>
-                            <span>•</span>Energías limpias y transportables para
-                            el hogar, industria minera, petrolífera y automotor
-                          </li>
-                        </ul>
-                        <br />
-                      </div>
-                      <div className="spacial" id="bussines">
-                        <h6>GESTIÓN COMERCIAL Y COMERCIO EXTERIOR</h6>
-                        <br />
-                        <ul>
-                          <li>
-                            <span>•</span>Importaciones y Exportaciones
+                            <span>•</span>Desarrollo de proyectos de agua
+                            potable, saneamiento y desagües pluviales, análisis
+                            de variables, cálculos y verificaciones integrales.
                           </li>
 
                           <li>
-                            <span>•</span>Logística
-                          </li>
-                          <li>
-                            <span>•</span>Estrategias de Negocios
-                          </li>
-                          <li>
-                            <span>•</span>Búsqueda de Proveedores
-                          </li>
-                          <li>
-                            <span>•</span>Compra de Insumos
-                          </li>
-                          <li>
-                            <span>•</span>Maquinarias y Mercaderías
+                            <span>•</span>Asesoramiento tecnológico relacionado
+                            a los proyectos y planteo de alternativas de
+                            aplicación según la magnitud de la implementación.
                           </li>
                         </ul>
                         <br />
                       </div>
+                      <h4 className="extra-title">
+                        Gerenciamiento y control de gestión de proyectos
+                      </h4>
+                      <ul>
+                        <li>
+                          <span>•</span>Auditoria externa y/o gerenciamiento de
+                          proyectos de distinta envergadura, tanto en etapa de
+                          desarrollo como durante la ejecución.
+                        </li>
+                        <li>
+                          <span>•</span>Análisis de costas, control de gestión y
+                          seguimiento integral de obras, permitiendo lograr
+                          resultados óptimos con un máximo nivel de eficiencia.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>

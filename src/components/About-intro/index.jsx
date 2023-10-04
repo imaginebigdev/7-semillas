@@ -1,6 +1,8 @@
 import React from "react";
 import Split from "../Split";
 import AboutInfo1Data from "../../data/sections/about-info1.json";
+import Testimonials from "../Testimonials/testimonials";
+import TestimonialsArch from "../Testimonials-arch/testimonials-arch";
 
 const AboutIntro = () => {
   return (
@@ -15,7 +17,8 @@ const AboutIntro = () => {
               <h4>{AboutInfo1Data.title}</h4>
             </div>
           </div>
-          <div className="col-lg-8 offset-lg-1 col-md-8">
+          <TestimonialsArch />
+          {/* <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text">
               <p className="wow txt mb-10 words chars splitting" data-splitting>
                 {AboutInfo1Data.paragraph1}
@@ -24,7 +27,7 @@ const AboutIntro = () => {
                 {AboutInfo1Data.paragraph2}
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

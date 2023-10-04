@@ -31,7 +31,7 @@ class TestimonialsArch extends React.Component {
   render() {
     return (
       <section
-      id="testimonials-arch"
+        id="testimonials-arch"
         className="testimonials section-padding position-re"
       >
         <div className="container">
@@ -94,19 +94,18 @@ class TestimonialsArch extends React.Component {
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          Ing. César Coronel
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Socio - Cofundador GRUPO 7S SRL
                         </span>
                       </div>
                     </div>
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      I would highly recommend Vie Digital. I worked with the
-                      team on an animation for our &apos;Click &amp;
-                      Collect&apos; service.
+                      Esp. Ejecución de proyectos viales y civiles. Gerente
+                      general - contacto: +549 385 688 9549
                     </p>
                   </div>
                 </div>
@@ -118,19 +117,19 @@ class TestimonialsArch extends React.Component {
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          Cecilia Cisneros
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Socia gerente - Cofundadora GRUPO 7S SRL
                         </span>
                       </div>
                     </div>
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      I would highly recommend Vie Digital. I worked with the
-                      team on an animation for our &apos;Click &amp;
-                      Collect&apos; service.
+                      Project Management - Administración de programas y
+                      proyectos. Gerente administrativa - Contacto: +549 383 478
+                      6895
                     </p>
                   </div>
                 </div>
@@ -142,19 +141,17 @@ class TestimonialsArch extends React.Component {
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          Ing. Ignacio Herrera
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Socio - Cofundador GRUPO 7S SRL
                         </span>
                       </div>
                     </div>
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      I would highly recommend Vie Digital. I worked with the
-                      team on an animation for our &apos;Click &amp;
-                      Collect&apos; service.
+                      Gerente técnico. Contacto: +549 385 404 0312
                     </p>
                   </div>
                 </div>
@@ -166,19 +163,18 @@ class TestimonialsArch extends React.Component {
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          Exequiel Nieva
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Socio gerente - Fundador GRUPO 7S SRL
                         </span>
                       </div>
                     </div>
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      I would highly recommend Vie Digital. I worked with the
-                      team on an animation for our &apos;Click &amp;
-                      Collect&apos; service.
+                      Esp. Organización y dirección de PYMES - Gestión
+                      financiera. Contacto: +549 383 478 6896
                     </p>
                   </div>
                 </div>

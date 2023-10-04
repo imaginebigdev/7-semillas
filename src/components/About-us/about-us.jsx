@@ -23,7 +23,7 @@ const AboutUs = () => {
                 {AboutUs1Date.title}
               </h3>
               <p>{AboutUs1Date.content}</p>
-              <Link href="/about">
+              <Link href="/nosotros">
                 <a className="butn bord curve mt-30">
                   <span style={{ color: "white" }}>Más info</span>
                 </a>

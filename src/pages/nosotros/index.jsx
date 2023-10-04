@@ -35,7 +35,7 @@ const About = () => {
       <PagesHeader />
       <AboutIntro />
       <MinimalArea />
-      <Team />
+     {/*  <Team /> */}
       <Clients theme="light" />
       <CallToAction />
       <Footer />

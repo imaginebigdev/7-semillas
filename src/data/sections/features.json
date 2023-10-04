@@ -2,7 +2,7 @@
   {
     "id": 1,
     "icon": "pe-7s-paint-bucket",
-    "title": "SERVICIOS PETROLEROS Y LOGISTICA",
+    "title": "PROYECTOS DE DISEÑO Y CALCULO ESTRUCTURAL",
     "content": "",
     "img": "/img/icons/1.png",
     "link": "logistic"
@@ -10,25 +10,18 @@
   {
     "id": 2,
     "icon": "pe-7s-phone",
-    "title": "EXPLOTACION MINERA Y OBRAS CIVILES",
+    "title": "PROYECTOS DE INFRAESTRUCTURA VIAL",
     "content": "",
     "img": "/img/icons/2.png",
-    "link": "explotation"
+    "link": "logistic"
   },
   {
     "id": 3,
     "icon": "pe-7s-display1",
-    "title": "MAQUINAS, HERRAMIENTAS Y ENERGIAS LIMPIAS",
+    "title": "PROYECTOS DE INFRAESTRUCTURA SANITARIA E HIDRÁULICA",
     "content": "",
     "img": "/img/icons/3.png",
-    "link": "energy"
-  },
-  {
-    "id": 4,
-    "icon": "pe-7s-global",
-    "title": "GESTIÓN COMERCIAL Y COMERCIO EXTERIOR",
-    "content": "",
-    "img": "/img/icons/4.png",
-    "link": "bussines"
+    "link": "logistic"
   }
+  
 ]
