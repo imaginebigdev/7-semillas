@@ -18,16 +18,19 @@ const Projects = () => {
   return (
     <section
       className="portfolio po-arch section-padding pb-70"
-      id="po-arch"
+      id="servicios"
       style={{ marginBottom: "100vh" }}
     >
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
-              <h2 className="wow fadeIn" data-wow-delay=".3s">
-                Proyectos
-              </h2>
+              <h3
+                className="fw-600 text-u ls1 mb-30 color-font"
+                data-wow-delay=".3s"
+              >
+                Forma de desarrollo de proyectos
+              </h3>
             </div>
           </div>
         </div>
@@ -48,7 +51,7 @@ const Projects = () => {
                   })
                 }
               >
-                JUVENTUD
+                diseño y calculo Estructural
               </span>
               <span
                 value="sports"
@@ -61,7 +64,7 @@ const Projects = () => {
                   })
                 }
               >
-                DEPORTE
+                infraestructura vial
               </span>
               <span
                 value="security"
@@ -74,9 +77,9 @@ const Projects = () => {
                   })
                 }
               >
-                SEGURIDAD
+                infraestructura sanitaria e hidráulica
               </span>
-              <span
+              {/* <span
                 value="urbanism"
                 onClick={() =>
                   setSection({
@@ -88,7 +91,7 @@ const Projects = () => {
                 }
               >
                 URBANISMO
-              </span>
+              </span> */}
             </div>
           </div>
 
@@ -100,24 +103,23 @@ const Projects = () => {
                     <div className="img">
                       <img
                         className="thumparallax-down"
-                        src="/img/min-area.jpg"
+                        src="/img/012.png"
                         alt=""
                       />
                     </div>
                   </div>
                   <div className="col-lg-6 valign">
                     <div className="content pt-0">
-                      <h4 className="wow color-font">juventud</h4>
+                      <h4 className="wow color-font">
+                        Proyectos de diseño y calculo Estructural
+                      </h4>
                       <p className="wow txt" data-splitting>
-                        Our creative Ad agency is ranked among the finest in the
-                        US. We cultivate smart ideas for start-ups and seasoned
-                        players. Our creative Ad agency is ranked among the
-                        finest in the US. We cultivate smart ideas for start-ups
-                        and seasoned players. Our creative Ad agency is ranked
-                        among the finest in the US. We cultivate smart ideas for
-                        start-ups and seasoned players. Our creative Ad agency
-                        is ranked among the finest in the US. We cultivate smart
-                        ideas for start-ups and seasoned players.
+                        Desarrollo de proyectos de ingeniería estructural,
+                        mediante el diseño, modelación tridimensional mediante
+                        método de elementos finitos, calculo y dimensionamiento
+                        de estructuras de hormigón armado, estructuras metálicas
+                        y madera, etc. Elaboración de memorias, planos,
+                        planillas y documentación de detalle.
                       </p>
                     </div>
                   </div>
@@ -131,24 +133,22 @@ const Projects = () => {
                     <div className="img">
                       <img
                         className="thumparallax-down"
-                        src="/img/min-area.jpg"
+                        src="/img/013.png"
                         alt=""
                       />
                     </div>
                   </div>
                   <div className="col-lg-6 valign">
                     <div className="content pt-0">
-                      <h4 className="wow color-font">deportes</h4>
+                      <h4 className="wow color-font">
+                        Proyectos de infraestructura vial
+                      </h4>
                       <p className="wow txt" data-splitting>
-                        Our creative Ad agency is ranked among the finest in the
-                        US. We cultivate smart ideas for start-ups and seasoned
-                        players. Our creative Ad agency is ranked among the
-                        finest in the US. We cultivate smart ideas for start-ups
-                        and seasoned players. Our creative Ad agency is ranked
-                        among the finest in the US. We cultivate smart ideas for
-                        start-ups and seasoned players. Our creative Ad agency
-                        is ranked among the finest in the US. We cultivate smart
-                        ideas for start-ups and seasoned players.
+                        Desarrollo de proyectos de ingeniería civil y vial,
+                        mediante la realización de estudios topográficos, diseño
+                        geométrico de caminos, puentes y obras complementarias.
+                        Elaboración de planos, planillas y documentación de
+                        detalle.
                       </p>
                     </div>
                   </div>
@@ -162,24 +162,22 @@ const Projects = () => {
                     <div className="img">
                       <img
                         className="thumparallax-down"
-                        src="/img/min-area.jpg"
+                        src="/img/014.png"
                         alt=""
                       />
                     </div>
                   </div>
                   <div className="col-lg-6 valign">
                     <div className="content pt-0">
-                      <h4 className="wow color-font">seguridad</h4>
+                      <h4 className="wow color-font">
+                        Proyectos de infraestructura sanitaria e hidráulica
+                      </h4>
                       <p className="wow txt" data-splitting>
-                        Our creative Ad agency is ranked among the finest in the
-                        US. We cultivate smart ideas for start-ups and seasoned
-                        players. Our creative Ad agency is ranked among the
-                        finest in the US. We cultivate smart ideas for start-ups
-                        and seasoned players. Our creative Ad agency is ranked
-                        among the finest in the US. We cultivate smart ideas for
-                        start-ups and seasoned players. Our creative Ad agency
-                        is ranked among the finest in the US. We cultivate smart
-                        ideas for start-ups and seasoned players.
+                        Desarrollo de proyectos de agua potable, saneamiento y
+                        desagües pluviales, análisis de variables, cálculos y
+                        verificaciones integrales. Asesoramiento tecnológico
+                        relacionado a los proyectos y planteo de alternativas de
+                        aplicación según la magnitud de la implementación.
                       </p>
                     </div>
                   </div>

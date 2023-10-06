@@ -6,8 +6,11 @@ import Footer from "../../components/Footer/footer";
 import PagesHeader from "../../components/Pages-header";
 import AboutIntro from "../../components/About-intro";
 import LightTheme from "../../layouts/Light";
-import Team from "../../components/Team/team";
+import Team2 from "../../components/Team2/team2";
 import MinimalArea from "../../components/Minimal-Area/minimal-area";
+import BlogDetailsUnidadesDeNegocio from "../../components/Blog-details/blog-details-unidadesDeNegocio";
+import DarkTheme from "../../layouts/Dark";
+import Nav from "../../components/Navbar/nav";
 
 const About = () => {
   const navbarRef = React.useRef(null);
@@ -30,16 +33,19 @@ const About = () => {
     });
   }, [navbarRef]);
   return (
-    <LightTheme>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+    <DarkTheme>
+      <Nav nr={navbarRef} lr={logoRef} theme="themeL" />
       <PagesHeader />
-      <AboutIntro />
+      {/*  <AboutIntro /> */}
+      <Team2 />
       <MinimalArea />
-     {/*  <Team /> */}
-      <Clients theme="light" />
+      <br></br>
+      <BlogDetailsUnidadesDeNegocio />
+      {/*  <Team /> */}
+      {/*  <Clients theme="light" /> */}
       <CallToAction />
       <Footer />
-    </LightTheme>
+    </DarkTheme>
   );
 };
 

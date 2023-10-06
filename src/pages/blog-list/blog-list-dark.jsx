@@ -28,12 +28,12 @@ const BlogListDark = () => {
       }, [navbarRef]);
   return (
     <DarkTheme>
-      <div className="circle-bg">
+     {/*  <div className="circle-bg">
         <div className="circle-color fixed">
           <div className="gradient-circle"></div>
           <div className="gradient-circle two"></div>
         </div>
-      </div>
+      </div> */}
       <Navbar nr={navbarRef} lr={logoRef} />
       <PageHeader
         className="sub-bg"

@@ -140,7 +140,7 @@ const ContactForm = () => {
                   {ContactFromDate.location.second}
                 </h6>
               </div>
-              <div className="social mt-50">
+             {/*  <div className="social mt-50">
                 <a href=" " target="_blank" rel="noreferrer" className="icon">
                   <i className="fab fa-linkedin fa-2x"></i>
                 </a>
@@ -156,7 +156,7 @@ const ContactForm = () => {
                 <a href=" " target="_blank" rel="noreferrer">
                   <i className="fab fa-whatsapp fa-2x"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

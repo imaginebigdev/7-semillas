@@ -2,12 +2,14 @@
 import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
+import blog2Data from "../../data/blog2.json";
 
 const Footer = ({ hideBGCOLOR }) => {
+  const ultimosTresNoticias = blog2Data.slice(-1);
   return (
-    <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
+    <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`} style={{padding: "0"}}>
       <div className="container">
-        <div className="row">
+        <div className="row mt-50">
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
@@ -39,24 +41,50 @@ const Footer = ({ hideBGCOLOR }) => {
               </ul>
             </div>
           </div>
-          {/* <div className="col-lg-4">
-            <div className="item md-mb50">
-              <div className="title">
-                <h5>Descargar Brochure</h5>
-              </div>
-              <div className="item">
-                <div className="social">
-                  <a
-                    href="http://smitsrl.com.ar/pdf/smit.pdf"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fas fa-file-pdf fa-2x"></i>
-                  </a>
+          <div className="col-lg-4">
+            <Link href={"/experiencia"}>
+              <div className="item md-mb50">
+                <div className="title">
+                  <h5>Ultimas experiencias</h5>
+                </div>
+                <div className="col-lg-7 offset-lg-1">
+                  <div className="posts mt-80" style={{ cursor: "pointer" }}>
+                    {ultimosTresNoticias?.map((blogItem, index) => (
+                      <div
+                        className="item mb-80 wow fadeInUp"
+                        key={blogItem.id}
+                        data-wow-delay=".3s"
+                      >
+                        <div className="img valign">
+                          <img
+                            /* style={{ widt: "200px", height: "300px" }} */
+                            src={blogItem.image}
+                            alt=""
+                          />
+                        </div>
+
+                        <div className="cont valign">
+                          <div>
+                            <div className="info">
+                              <span
+                                style={{ color: "#ffe00e" }}
+                                className="pt-20"
+                              >
+                                {blogItem.date.day}
+                              </span>
+                              <span>/</span>
+                              <span className="tag">{blogItem.Cliente}</span>
+                            </div>{/* 
+                            <h5>{blogItem.title}</h5> */}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-          </div> */}
+            </Link>
+          </div>
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
@@ -66,7 +94,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   alt=""
                 />
               </div>
-              <div className="social">
+              {/* <div className="social">
                 <a href=" " target="_blank" rel="noreferrer" className="icon">
                   <i className="fab fa-linkedin fa-2x"></i>
                 </a>
@@ -82,7 +110,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 <a href=" " target="_blank" rel="noreferrer">
                   <i className="fab fa-whatsapp fa-2x"></i>
                 </a>
-              </div>
+              </div> */}
               <div className="copy-right">
                 <p>
                   Copyright © 2023 - SMIT - Todos los derechos reservados -

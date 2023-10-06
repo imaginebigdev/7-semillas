@@ -10,6 +10,9 @@ import CallToAction from "../../components/Call-to-action/call-to-action";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
 import Clients from "../../components/Clients/clients";
+import WorksStyle5 from "../../components/Works-style5/works-style5";
+import DarkTheme from "../../layouts/Dark";
+import Blog from "../../components/Blog-list/blog";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -44,19 +47,19 @@ const Homepage1 = () => {
     });
   }, [fixedSlider, MainContent, navbarRef]);
   return (
-    <LightTheme>
+    <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <AboutUs />
-        <Services />
-        <Services3 />
-        <Works />
-        <Clients theme="light" />
+        <WorksStyle5 />
+        <Blog />
+        {/* <Works /> */}
+        {/* <Clients theme="light" /> */}
         <CallToAction />
         <Footer />
       </div>
-    </LightTheme>
+    </DarkTheme>
   );
 };
 

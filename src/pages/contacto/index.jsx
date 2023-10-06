@@ -5,6 +5,8 @@ import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
 import ContactHeader from "../../components/Contact-header/contact-header";
 import ContactForm from "../../components/Contact-form/contact-form";
+import DarkTheme from "../../layouts/Dark";
+import Nav from "../../components/Navbar/nav";
 
 const Contact = () => {
   const navbarRef = React.useRef(null);
@@ -32,20 +34,20 @@ const Contact = () => {
   }, [navbarRef]);
 
   return (
-    <LightTheme>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+    <DarkTheme>
+      <Nav nr={navbarRef} lr={logoRef} theme="themeL" />
       <ContactHeader blackStar />
       <div className="main-content">
         <ContactForm />
         <div className="map" id="ieatmaps">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3113.1351924723263!2d-68.166246!3d-38.714704999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDQyJzUyLjkiUyA2OMKwMDknNTguNSJX!5e0!3m2!1sen!2sar!4v1681556569401!5m2!1sen!2sar"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.3446331983178!2d-65.78830032450469!3d-28.469166060028094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942428954efae55b%3A0x334f94400ab499ba!2sCaseros%20625%2C%20K4702DGA%20San%20Fernando%20del%20Valle%20de%20Catamarca%2C%20Catamarca!5e0!3m2!1ses!2sar!4v1696620633646!5m2!1ses!2sar"
             loading="lazy"
           ></iframe>
         </div>
         <Footer />
       </div>
-    </LightTheme>
+    </DarkTheme>
   );
 };
 

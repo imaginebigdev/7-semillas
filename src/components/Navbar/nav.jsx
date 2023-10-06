@@ -1,11 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-/* import Link from "next/link"; */
-import { Link } from "react-scroll";
+import Link from "next/link";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
-const Navbar = ({ lr, nr, theme }) => {
+const Nav = ({ lr, nr, theme }) => {
   return (
     <nav
       ref={nr}
@@ -61,41 +60,8 @@ const Navbar = ({ lr, nr, theme }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item dropdown">
-              <Link
-                to=""
-                onClick={() => {
-                  window.scrollTo({
-                    top: 0,
-                    behavior: "smooth",
-                  });
-                  handleMobileDropdown();
-                }}
-                offset={50}
-                duration={500}
-              >
+              <Link href={"/"} offset={50} duration={500}>
                 <a className="nav-link">Inicio</a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/nosotros">
-                <a className="nav-link">Quienes somos</a>
-              </Link>
-            </li>
-            <li className="nav-item dropdown">
-              <Link to="servicios">
-                <a className="nav-link" to="servicios">
-                  Servicios
-                </a>
-              </Link>
-            </li>
-            <li className="nav-item dropdown">
-              <Link to="blog" spy={true} offset={50} duration={500}>
-                <a className="nav-link">Experiencia</a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/contacto">
-                <a className="nav-link">Contacto</a>
               </Link>
             </li>
           </ul>
@@ -105,4 +71,4 @@ const Navbar = ({ lr, nr, theme }) => {
   );
 };
 
-export default Navbar;
+export default Nav;

@@ -2,19 +2,6 @@
   {
     "id": 1,
     "title": "PROYECTOS CIVILES Y VIALES",
-    "content": "Empresa dedicada al comercio exterior y gestión comercial, servicio de logistica de transporte, DTM para equipos de perforacion (drilling), terminación (workover) y pulling. Explotación minera y obras civiles.",
-    "image": "/img/slid/1.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Estructura",
-    "content": "Nuestra empresa tiene una estructura moderna y ágil que ofrece respuestas agraciadas a las necesidades de cada cliente.",
-    "image": "/img/slid/2.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Energias limpias y renovables",
-    "content": "Soluciones de energías innovadoras y ecológicas desarrolladas con la más alta tecnología, para las personas, las familias y las empresas.",
-    "image": "/img/slid/3.jpg"
+    "image": "/img/slid/introqw.png"
   }
 ]

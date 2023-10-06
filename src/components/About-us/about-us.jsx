@@ -5,11 +5,8 @@ import AboutUs1Date from "../../data/sections/about-us1.json";
 
 const AboutUs = () => {
   return (
-    <section
-      className="about-us section-padding "
-      style={{ background: "#292627" }}
-    >
-      <div className="container">
+    <section className="about-us section-padding " id="/nosotros">
+      <div className="container" id="/nosotros">
         <div className="row">
           <div className="col-lg-5 valign md-mb50">
             <div className="mb-50">
@@ -25,7 +22,7 @@ const AboutUs = () => {
               <p>{AboutUs1Date.content}</p>
               <Link href="/nosotros">
                 <a className="butn bord curve mt-30">
-                  <span style={{ color: "white" }}>Más info</span>
+                  <span>Más info</span>
                 </a>
               </Link>
             </div>

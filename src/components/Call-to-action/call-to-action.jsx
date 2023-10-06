@@ -7,6 +7,7 @@ const CallToAction = ({ img }) => {
     <section
       className="call-action section-padding sub-bg bg-img"
       style={{ backgroundImage: `url(${img ? img : "/img/patrn.svg"})` }}
+      id="/contacto"
     >
       <div className="container">
         <div className="row">
@@ -28,11 +29,7 @@ const CallToAction = ({ img }) => {
 
           <div className="col-md-4 col-lg-3 valign">
             <Link href={`/contacto`}>
-              <a
-                className="butn bord curve wow fadeInUp"
-                data-wow-delay=".5s"
-                style={{ color: "white" }}
-              >
+              <a className="butn bord curve wow fadeInUp" data-wow-delay=".5s">
                 <span>Contacto</span>
               </a>
             </Link>

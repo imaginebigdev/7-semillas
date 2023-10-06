@@ -1,35 +1,170 @@
 [
     {
         "id": 1,
-        "title": "How to use solid color combine with simple furnitures.",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l1.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "title": "Cisterna para almacenamiento de agua potable obra acueducto simbolar-añatuya.",
+        "content": "Proyecto estructural cisterna de hormigón armado, capacidad de almacenamiento 6000m3.",
+        "image": "/img/blog/cisterna.png",
+        "tags": ["Añatuya", "Santiago", "del Estero"],
         "date": {
-            "day": "07",
-            "month": "August"
-        }
+            "day": "2020"
+            
+        },
+        "Cliente": "Mijovi SRL"
     },
     {
         "id": 2,
-        "title": "Build a Beautiful Blog With Ease",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l2.jpg",
-        "tags": ["WordPress"],
+        "title": "Proyecto nuevo puente sobre el R° Santa maria, catamarca, argentina.",
+        "content": " Proyecto estructural de puente, diseño, dimensionamiento y verificación de estructura, longitud total 350m. Proyectos viales de acceso puente",
+        "image": "/img/blog/puente.png",
+        "tags": ["Santa maria", "Catamarca"],
         "date": {
-            "day": "07",
-            "month": "August"
-        }
+            "day": "2021"
+            
+        },
+        "Cliente": "Kgori Punku-cfi"
     },
     {
         "id": 3,
-        "title": "Build a Beautiful Blog With Ease",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l3.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "title": "Proyecto recrecimiento de laguna de efluentes industriales, salta, argentina.",
+        "content": "Proyecto de recrecimiento de taludes para aumento de capacidad de almacenamiento de efluentes industriales. Diseño, dimensionamiento y verificación de estabilidad de taludes, diseño de muros de gaviones, cómputo y presupuesto.",
+        "image": "/img/blog/laguna.png",
+        "tags": ["Campo", "Quijano", "Salta"],
         "date": {
-            "day": "07",
-            "month": "August"
-        }
-    } 
+            "day": "2021"
+            
+        },
+        "Cliente": "Kgori Punku-borax argentina"
+    },
+    {
+        "id": 4,
+        "title": "Planta depuradora procrear parana.",
+        "content": "Proyecto estructural reactor biológico, estructura de ingreso tamices, proyecto de descarga de agua tratada.",
+        "image": "/img/blog/procrear.png",
+        "tags": ["Paraná", "entre", "ríos"],
+        "date": {
+            "day": "2021"
+            
+        },
+        "Cliente": "COMARH-BHY SA"
+    },
+    {
+        "id": 5,
+        "title": "Proyecto determinación de parámetros geotécnicos y propuestas de fundaciones de estructuras, salar del hombre muerto, catamarca, argentina.",
+        "content": "Determinación de coeficientes geotécnicos, cálculo de asentamientos, propuestas de solución de fundaciones de estructuras, protección y tratamiento de suelos.",
+        "image": "/img/blog/salar.png",
+        "tags": ["Salar del hombre muerto", "Catamarca"],
+        "date": {
+            "day": "2021"
+            
+        },
+        "Cliente": "Kgori Punku-Worley"
+    },
+    {
+        "id": 6,
+        "title": "Estación de bombeo de agua potable, santiago del estero.",
+        "content": "Proyecto estructural y de arquitectura estación de bombeo a tanque elevado.",
+        "image": "/img/blog/bombeo.png",
+        "tags": ["Añatauya", "Santiago", "del Estero"],
+        "date": {
+            "day": "2021"
+            
+        },
+        "Cliente": "Mijovi SRL"
+    },
+    {
+        "id": 7,
+        "title": "Proyectos de obras de defensa contra inundaciones en localidades limítrofes a canal interprovincial - Obra hidrovial interprovincial.",
+        "content": "Relevamiento topográfico, recopilación de información, análisis hidrológicos-hidráulicos, dimensionamiento de obras de defensa contra inundaciones.",
+        "image": "/img/blog/inunda.png",
+        "tags": ["Límite interprovincial", "Santiago del Estero", "Santa Fe"],
+        "date": {
+            "day": "2021"
+            
+        },
+        "Cliente": "CFI"
+    },
+    {
+        "id": 8,
+        "title": "Proyecto estaciones elevadoras de líquidos cloacales y saneamiento EDAR. Plan director de desagües cloacales de la municipalidad de apóstoles-provincia de misiones.",
+        "content": "Proyectos civil-hidraulico-electromecanico de las estaciones elevadoras de líquidos cloacales y de la estación depuradora de aguas residuales (E.D.A.R).",
+        "image": "/img/blog/cloaca.png",
+        "tags": ["Apóstoles", "Misiones"],
+        "date": {
+            "day": "2022"
+            
+        },
+        "Cliente": "Alpa vial-coarco"
+    },
+    {
+        "id": 9,
+        "title": "Proyecto nuevo azud pozo de piedra.",
+        "content": "Proyectos civil-hidráulicos de obra hidráulica, captación, conducción y almacenamiento.",
+        "image": "/img/blog/azud.png",
+        "tags": ["Belen", "Catamarca"],
+        "date": {
+            "day": "2022"
+            
+        },
+        "Cliente": "Sucesión de mogetta guido david"
+    },
+    {
+        "id": 10,
+        "title": "Proyecto estación elevadora de líquidos cloacales- la calera, córdoba.",
+        "content": "Proyecto estructural, hidráulico y electromecánico.",
+        "image": "/img/blog/estacion.png",
+        "tags": ["La Calera", " provincia de", "Córdoba"],
+        "date": {
+            "day": "2022"
+            
+        },
+        "Cliente": "Riva S.A. Tecma S.A UT"
+    },
+    {
+        "id": 11,
+        "title": "Proyecto ejecutivo civil-estación de bombeo cloacal darregueira-pcia. de buenos aires.",
+        "content": "Proyecto estructural e ingeniería para el dimensionado y verificación de las estructuras e instalaciones de las obras relacionadas a la estación de bombeo.",
+        "image": "/img/blog/darregueira.png",
+        "tags": ["Provincia de", "buenos aires"],
+        "date": {
+            "day": "2022"
+            
+        },
+        "Cliente": "BRIDGE HYDROGEN S.A"
+    },
+    {
+        "id": 12,
+        "title": "Proyecto ejecutivo civil-estructural planta potabilizadora general alvear-pcia. de buenos aires.",
+        "content": "Proyecto estructural e ingeniería para el dimensionado y verificación de las estructuras e instalaciones de las obras relacionadas a la planta potabilizadora.",
+        "image": "/img/blog/ejecutivo.png",
+        "tags": ["Provincia de", "buenos aires"],
+        "date": {
+            "day": "2022"
+            
+        },
+        "Cliente": "BRIDGE HYDROGEN S.A"
+    },
+    {
+        "id": 13,
+        "title": "Proyecto desagües cloacales ciudad de tacural, provincia de santa fe",
+        "content": "Proyectos civil-hidráulicos-electromecánicos de las estaciones elevadoras de líquidos cloacales.",
+        "image": "/img/blog/tacural.png",
+        "tags": ["Tacural", "provincia de", "Santa Fe"],
+        "date": {
+            "day": "2022"
+            
+        },
+        "Cliente": "Winkelmann"
+    },
+    {
+        "id": 14,
+        "title": "Proyecto revamping estación elevadora de líquidos cloacales n°19 santiago del estero.",
+        "content": "Proyecto hidráulico, verificación y redimensionado de equipos de bombeo, verificación de impulsión a planta de tratamiento en régimen permanente y transitorio, propuestas de modificación e implantación de elementos de control.",
+        "image": "/img/blog/elevadora.png",
+        "tags": ["Santiago del", "Estero", "capital"],
+        "date": {
+            "day": "2022"
+            
+        },
+        "Cliente": "Panedile-esuco-supercemento UTE"
+    }
 ]
